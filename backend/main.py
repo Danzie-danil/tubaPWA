@@ -35,3 +35,8 @@ def on_startup():
 @app.get(f"{API_PREFIX}/health")
 def health():
     return {"status": "ok"}
+
+
+@app.get("/")
+def root():
+    return {"status": "ok"}
