@@ -3,9 +3,5 @@
     "api/index.py": {
       "runtime": "vercel-python@3.0"
     }
-  },
-  "excludeFiles": [
-    ".venv/**",
-    "**/__pycache__/**"
-  ]
+  }
 }
